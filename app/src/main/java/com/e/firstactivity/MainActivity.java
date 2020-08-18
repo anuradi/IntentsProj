@@ -12,7 +12,10 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+
     public static final String EXTRA_NUMBER = "com.example.application.example.EXTRA_NUMBER";
+    public static final String EXTRA_NUMBER2 = "com.example.application.example.EXTRA_NUMBER2";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
     public void openActivity2() {
         EditText editText1 =  findViewById(R.id.no_fa);
 
@@ -45,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         intent.putExtra(EXTRA_NUMBER, number1);
-        intent.putExtra(EXTRA_NUMBER, number2);
+        intent.putExtra(EXTRA_NUMBER2, number2);
         startActivity(intent);
     }
 }
