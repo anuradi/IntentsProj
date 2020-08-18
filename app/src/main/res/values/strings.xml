@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirstActivity</string>
+    <string name="onsum">sum</string>
+    <string name="pluse">+</string>
+    <string name="btnsum">-</string>
+    <string name="multipication">*</string>
+    <string name="btndivi">/</string>
+    <string name="textView">Number 1</string>
+    <string name="textView2">Number 2</string>
+</resources>
